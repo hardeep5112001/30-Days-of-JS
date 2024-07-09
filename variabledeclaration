@@ -1,0 +1,8 @@
+let firstName = 'Hardeep'
+let lastName = 'Walia'
+let country = 'India'
+let city = 'Jhansi'
+let age = 22
+let isMarried = true
+
+console.log(firstName, lastName, country, city, age, isMarried)
