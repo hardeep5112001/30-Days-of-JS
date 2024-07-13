@@ -1,0 +1,52 @@
+let space = ' '
+let firstName = 'Hardeep'
+let lastName = 'Singh'
+let country = 'India'
+let city = 'Jhansi'
+let language = 'JavaScript'
+
+// String Concatenation
+console.log(firstName + space + lastName)
+
+// Template Strings                
+let a = 2
+let b = 3
+console.log(`The sum of ${a} and ${b} is ${a + b}`)
+
+// String length
+let string = 'Javascript'
+console.log(string.length)
+
+// Accessing characters
+let firstLetter = string[0]
+
+console.log(firstLetter)           
+
+let secondLetter = string[1]       
+let thirdLetter = string[2]
+let lastLetter = string[9]
+
+console.log(lastLetter)            
+
+let lastIndex = string.length - 1
+
+console.log(lastIndex)  
+console.log(string[lastIndex])    
+
+// substr()
+console.log(string.substr(4,6))
+
+// substring()
+console.log(string.substring(0,4))     
+console.log(string.substring(4,10))    
+console.log(string.substring(4))
+
+// replace()
+let string1 = '30 Days Of JavaScript'
+console.log(string1.replace('JavaScript', 'Python'))
+
+//charAt()
+console.log(string1.charAt(0))       
+
+let lastIndex1 = string1.length - 1
+console.log(string1.charAt(lastIndex1))
