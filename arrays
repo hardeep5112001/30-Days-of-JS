@@ -1,0 +1,47 @@
+// arrays with values and their lengths
+const numbers = [0, 3.14, 9.81, 37, 98.6, 100] 
+const fruits = ['banana', 'orange', 'mango', 'lemon'] 
+const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] 
+const animalProducts = ['milk', 'meat', 'butter', 'yoghurt'] 
+const webTechs = ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'MongDB']
+
+console.log('Numbers:', numbers)
+console.log('Number of numbers:', numbers.length)
+
+console.log('Fruits:', fruits)
+console.log('Number of fruits:', fruits.length)
+
+console.log('Vegetables:', vegetables)
+console.log('Number of vegetables:', vegetables.length)
+
+console.log('Animal products:', animalProducts)
+console.log('Number of animal products:', animalProducts.length)
+
+console.log('Web technologies:', webTechs)
+console.log('Number of web technologies:', webTechs.length)
+
+
+// Accessing array items using index
+const fruits1 = ['banana', 'orange', 'mango', 'lemon']
+let firstFruit = fruits1[0] 
+
+console.log(firstFruit) 
+
+let secondFruit = fruits1[1]
+console.log(secondFruit) 
+
+let lastFruit = fruits1[3]
+console.log(lastFruit) 
+
+let lastIndex = fruits1.length - 1
+lastFruit = fruits1[lastIndex]
+
+console.log(lastFruit)
+
+
+// Concatenating array using concat
+const firstList = [1, 2, 3]
+const secondList = [4, 5, 6]
+const thirdList = firstList.concat(secondList)
+
+console.log(thirdList)
