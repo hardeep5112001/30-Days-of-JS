@@ -1,0 +1,67 @@
+// Function without a parameter and return
+function square() {
+    let num = 2
+    let sq = num * num
+    console.log(sq)
+  }
+  
+  square()
+
+// Function returning value
+function addTwoNumbers() {
+    let numOne = 2
+    let numTwo = 3
+    let total = numOne + numTwo
+    return total
+
+}
+
+console.log(addTwoNumbers())
+
+// Function with a parameter
+function areaOfCircle(r) {
+  let area = Math.PI * r * r
+  return area
+}
+
+console.log(areaOfCircle(10)) 
+
+// Function with two parameters
+function sumTwoNumbers(numOne, numTwo) {
+    let sum = numOne + numTwo
+    console.log(sum)
+  }
+  sumTwoNumbers(10, 20)
+
+// Function with many parameters
+function sumArrayValues(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+      sum = sum + arr[i];
+    }
+    return sum;
+  }
+  const numbers = [1, 2, 3, 4, 5];
+  console.log(sumArrayValues(numbers));
+
+// Function with unlimited number of parameters
+function sumAllNums() {
+    let sum = 0
+    for (let i = 0; i < arguments.length; i++) {
+      sum = sum + arguments[i]
+    }
+    return sum
+  }
+  
+  console.log(sumAllNums(1, 2, 3, 4)) 
+  console.log(sumAllNums(10, 20, 13, 40, 10)) 
+  console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))
+
+// Function with default parameters
+function weightOfObject(mass, gravity = 9.81) {
+    let weight = mass * gravity + ' N' 
+    return weight
+  }
+  
+  console.log('Weight of an object in Newton: ', weightOfObject(100)) 
+  console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62))
