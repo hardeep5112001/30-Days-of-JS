@@ -1,0 +1,36 @@
+// for loop
+for(let i = 0; i <= 5; i++){
+    console.log(i)
+  }
+
+// Adding all elements in the array
+let arr = [0,1,2,3,4,5]
+let sum = 0
+for(let i = 0; i < arr.length; i++) {
+    sum = sum + arr[i]   
+}
+console.log(sum)
+
+// Creating a new array based on existing array
+let arr1 = [1,2,3,4,5]
+let newarr = []
+for(let i = 0; i < arr1.length; i++) {
+    newarr.push(arr1[i] ** 2)
+}
+console.log(newarr)
+
+// Break
+for(let i = 0; i <= 5; i++){
+    if(i == 3){
+      break
+    }
+    console.log(i)
+  }
+  
+// Continue
+for(let i = 0; i <= 5; i++){
+    if(i == 3){
+      continue
+    }
+    console.log(i)
+  }
