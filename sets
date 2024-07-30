@@ -1,0 +1,21 @@
+//new set empty
+const hello = new Set()
+console.log(hello)
+
+//Adding an element to a set
+const companies = new Set()
+console.log(companies.size) 
+companies.add('Google')
+companies.add('Facebook')
+companies.add('Amazon')
+companies.add('Microsoft')
+console.log(companies.size)
+console.log(companies)
+
+//Deleting an element from set
+console.log(companies.delete('Google'))
+console.log(companies.size) 
+
+//Checking an element from set
+console.log(companies.has('Apple'))
+console.log(companies.has('Facebook')) 
