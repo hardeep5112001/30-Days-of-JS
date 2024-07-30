@@ -1,0 +1,29 @@
+//Functional Programming
+let sum = 0;
+const numbers = [1, 2, 3, 4, 5];
+numbers.forEach(num => console.log(num))
+console.log(sum)
+
+let sum1 = 0;
+numbers.forEach(num => sum1 += num)
+console.log(sum1)
+
+//find
+const ages = [24, 22, 25, 32, 35, 18]
+const age = ages.find((age) => age < 20)
+
+console.log(age)
+
+//sort
+const numbers = [9.81, 3.14, 100, 37]
+console.log(numbers.sort()) 
+numbers.sort(function (a, b) {
+  return a - b
+})
+
+console.log(numbers) 
+
+numbers.sort(function (a, b) {
+  return b - a
+})
+console.log(numbers)
