@@ -1,0 +1,33 @@
+  const numbers = [1, 2, 3]
+  let [numOne, numTwo, numThree] = numbers
+
+  console.log(numOne, numTwo, numThree)
+
+  const fullStack = [
+    ['HTML', 'CSS', 'JS', 'React'],
+    ['Node', 'Express', 'MongoDB']
+  ]
+  const [frontEnd, backEnd] = fullStack
+  
+  console.log(frontEnd)
+  console.log(backEnd)
+
+  //Destructuring during iteration
+  const fullStack = [
+    ['HTML', 'CSS', 'JS', 'React'],
+    ['Node', 'Express', 'MongoDB']
+  ]
+  
+  for(const [first, second, third] of fullStack) {
+  console.log(first, second, third)
+  }
+
+  //Destructuring Object
+  const rectangle = {
+    width: 20,
+    height: 10,
+    area: 200
+  }
+  let { width, height, area, perimeter } = rectangle
+  
+  console.log(width, height, area, perimeter)
