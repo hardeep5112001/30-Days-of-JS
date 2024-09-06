@@ -1,0 +1,22 @@
+{
+"users":[
+  {
+    "firstName":"Hardeep",
+    "lastName":"Singh",
+    "age":22,
+    "email":"hardeepwalia05@gmail.com"
+  },
+  {
+    "firstName":"Arun",
+    "lastName":"Kumar",
+    "age":25,
+    "email":"arun8@gmail.com"
+  },
+  {
+  "firstName":"Rahul",
+  "lastName":"Mishra",
+  "age":28,
+  "email":"rahulmishra5@gmail.com"
+  }
+]
+}
